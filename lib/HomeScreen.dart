@@ -67,6 +67,7 @@ class HomeScreen extends StatelessWidget {
             '@TwWarks',
             style: TextStyle(fontSize: 22),
           ),
+          SizedBox(height: 10,),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
