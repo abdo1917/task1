@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         HomeScreen2.routeName : (_) => HomeScreen2(),
 
       },
-      initialRoute: HomeScreen2.routeName,
+      initialRoute: HomeScreen.routeName,
     );
   }
 }

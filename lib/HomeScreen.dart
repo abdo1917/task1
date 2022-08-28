@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
-  static const String routeName = 'RouteName';
+  static const String routeName = 'RouteName1';
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -15,9 +15,9 @@ class HomeScreen extends StatelessWidget {
             children: [
               SizedBox(width: 10,),
               Icon(Icons.arrow_back),
-              SizedBox(width: 290,),
+              SizedBox(width: size.width * .7,),
               Container(child: Icon(Icons.favorite)),
-              SizedBox(width: 10,),
+
               Icon(Icons.list),
             ],
           ),
